@@ -1,6 +1,6 @@
 {
   "name": "netlify-lambda",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "main": "bin/cmd.js",
   "bin": {
     "netlify-lambda": "bin/cmd.js"
@@ -27,7 +27,6 @@
     "express": "^4.16.2",
     "express-logging": "^1.1.1",
     "toml": "^2.3.3",
-    "webpack": "^3.11.0",
     "webpack-merge": "^4.1.1"
   }
 }
