@@ -1,12 +1,7 @@
 {
   "name": "netlify-lambda",
-  "version": "0.2.8",
-  "main": "bin/cmd.js",
-  "bin": {
-    "netlify-lambda": "bin/cmd.js"
-  },
+  "version": "0.2.6",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mathias Biilmann Christensen",
   "license": "MIT",
@@ -18,16 +13,15 @@
     "url": "https://github.com/netlify/netlify-lambda/issues"
   },
   "dependencies": {
-    "@babel/core": "^7.0.0-beta.39",
-    "@babel/preset-env": "^7.0.0-beta.39",
-    "babel-loader": "8.0.0-beta.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
     "base-64": "^0.1.0",
     "body-parser": "^1.18.2",
     "commander": "^2.11.0",
     "express": "^4.16.2",
     "express-logging": "^1.1.1",
     "toml": "^2.3.3",
-    "webpack": "^3.11.0",
     "webpack-merge": "^4.1.1"
   }
 }
