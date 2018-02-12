@@ -2,6 +2,14 @@
 
 Based on Netlify-Lambda. Modified to suit personal workflow. 
 
+## Installation
+
+  `npm install @codiechanel/netlify-lambda`
+
+  or
+
+  `yarn add @codiechanel/netlify-lambda`
+
 Changes:
 
 1. Removed webpack dependency. Since create-react-app already includes webpack, it becomes redundant having 2 webpack versions co-exist in the node modules folder. 
