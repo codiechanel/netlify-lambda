@@ -1,5 +1,6 @@
 {
   "name": "netlify-lambda",
+  "version": "0.2.6",
   "scripts": {
   },
   "author": "Mathias Biilmann Christensen",
