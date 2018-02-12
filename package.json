@@ -1,21 +1,21 @@
 {
-  "name": "netlify-lambda",
-  "version": "0.2.10",
+  "name": "@codiechanel/netlify-lambda",
+  "version": "0.2.11",
   "main": "bin/cmd.js",
+  "engines": {
+    "node": ">=6.10"
+  },
   "bin": {
     "netlify-lambda": "bin/cmd.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mathias Biilmann Christensen",
+  "author": "Codie Chanel",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/netlify/netlify-lambda.git"
-  },
-  "bugs": {
-    "url": "https://github.com/netlify/netlify-lambda/issues"
+    "url": "git+https://github.com/codiechanel/netlify-lambda.git"
   },
   "dependencies": {
     "@babel/core": "^7.0.0-beta.39",
