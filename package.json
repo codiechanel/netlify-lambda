@@ -1,6 +1,6 @@
 {
   "name": "netlify-lambda",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "main": "bin/cmd.js",
   "bin": {
     "netlify-lambda": "bin/cmd.js"
